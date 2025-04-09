@@ -7,8 +7,8 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
 
-    protected String key = "6df6365564f8c0e3a0ca3636d6c01bba";
-    protected String token = "ATTA45c68154cc02a58a1917aa55c2a1abec40f5d73af8eee28e114369f8c7e74fe8009049A0";
+    protected String key = "your_api_key_here";
+    protected String token = "your_api_token_here";
 
     protected String baseURI = "https://api.trello.com/1";
 
