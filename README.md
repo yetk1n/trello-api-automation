@@ -52,24 +52,6 @@ src
    ```bash
    git clone <repository-url>
    cd trello-api-automation
-   ```
-
-2. **Configure the API key and token** in `BaseTest.java`:
-   ```java
-   protected String key = "your-api-key";
-   protected String token = "your-api-token";
-   ```
-
-3. **Build the project** using Maven:
-   ```bash
-   mvn clean install
-   ```
-
-4. **Run the tests**:
-   ```bash
-   mvn test
-   ```
-
 ---
 
 ## 📋 Logging
@@ -122,26 +104,3 @@ The `TrelloWorkflowTest` class automates the following steps:
 3. 🔄 **Randomly update one of the cards**.
 4. 🗑️ **Delete the created cards**.
 5. 🗑️ **Delete the created board**.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit your changes.
-4. Submit a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
-
----
-
-## 📧 Contact
-
-For any questions or issues, please contact the project maintainer.
